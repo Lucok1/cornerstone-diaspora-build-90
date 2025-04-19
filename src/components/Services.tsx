@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { Calendar, ShoppingCart, Map, Settings } from 'lucide-react';
@@ -30,7 +29,7 @@ const Services: React.FC = () => {
   ];
 
   return (
-    <section id="services" className="py-20 bg-white">
+    <section id="services" className="py-20 bg-cornerstone-beige">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="section-title">{t('ourServices')}</h2>

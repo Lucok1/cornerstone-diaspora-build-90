@@ -63,10 +63,11 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				cornerstone: {
-					black: '#2B1810', // marron foncé
-					orange: '#F97316', // orange vif
-					gold: '#C9A66B', // marron doré
-					navy: '#1F2937', // bleu marine foncé pour contraste
+					black: '#2B1810', // brun foncé
+					orange: '#E84C3D', // rouge-orangé
+					gold: '#C9A66B', // brun doré
+					beige: '#FDF5F2', // beige clair
+					navy: '#2B1810', // même que black pour la cohérence
 					white: '#ffffff',
 				}
 			},

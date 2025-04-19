@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { ArrowRight } from 'lucide-react';
@@ -8,7 +7,6 @@ const Hero: React.FC = () => {
 
   return (
     <section className="relative bg-gradient-to-br from-cornerstone-orange to-cornerstone-black text-white py-24">
-      {/* Orange accent */}
       <div className="absolute top-0 left-0 w-1/3 h-1 bg-cornerstone-orange"></div>
       <div className="absolute bottom-0 right-0 w-1/3 h-1 bg-cornerstone-orange"></div>
       
@@ -32,7 +30,6 @@ const Hero: React.FC = () => {
         </div>
       </div>
       
-      {/* Decorative element */}
       <div className="absolute left-0 top-1/2 transform -translate-y-1/2 h-64 w-1 bg-cornerstone-orange opacity-50 hidden lg:block"></div>
       <div className="absolute right-0 top-1/2 transform -translate-y-1/2 h-64 w-1 bg-cornerstone-orange opacity-50 hidden lg:block"></div>
     </section>
