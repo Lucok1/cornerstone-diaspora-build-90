@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
   const { t } = useLanguage();
 
   return (
-    <section className="relative bg-cornerstone-black text-white py-24">
+    <section className="relative bg-gradient-to-br from-cornerstone-orange to-cornerstone-black text-white py-24">
       {/* Orange accent */}
       <div className="absolute top-0 left-0 w-1/3 h-1 bg-cornerstone-orange"></div>
       <div className="absolute bottom-0 right-0 w-1/3 h-1 bg-cornerstone-orange"></div>

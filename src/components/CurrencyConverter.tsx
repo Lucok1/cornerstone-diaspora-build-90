@@ -49,7 +49,7 @@ const CurrencyConverter: React.FC = () => {
                 type="number"
                 value={amount}
                 onChange={(e) => setAmount(e.target.value)}
-                className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-cornerstone-gold"
+                className="w-full p-3 border border-cornerstone-gold/30 rounded-md focus:outline-none focus:ring-2 focus:ring-cornerstone-orange transition-colors"
                 placeholder="0.00"
               />
             </div>

@@ -41,7 +41,7 @@ const Services: React.FC = () => {
           {services.map((service, index) => (
             <div 
               key={index} 
-              className="bg-white p-8 rounded-lg border border-gray-200 shadow-md hover:shadow-lg transition-shadow flex flex-col items-center text-center"
+              className="bg-white p-8 rounded-lg border border-cornerstone-gold/20 shadow-md hover:shadow-lg hover:border-cornerstone-orange/30 transition-all flex flex-col items-center text-center"
             >
               <div className="mb-6">{service.icon}</div>
               <h3 className="text-xl font-bold mb-4 font-playfair">{service.title}</h3>

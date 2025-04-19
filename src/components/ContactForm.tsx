@@ -43,7 +43,7 @@ const ContactForm: React.FC = () => {
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
+          <div className="bg-white p-8 rounded-lg shadow-md border border-cornerstone-gold/20 hover:border-cornerstone-orange/20 transition-colors">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label htmlFor="name" className="block mb-2 font-medium">

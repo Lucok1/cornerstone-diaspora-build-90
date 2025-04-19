@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <header className="bg-cornerstone-black py-4 sticky top-0 z-50 border-b border-cornerstone-orange/30">
+    <header className="bg-cornerstone-black/90 backdrop-blur-md py-4 sticky top-0 z-50 border-b border-cornerstone-orange/30">
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center gap-4">
           <a href="/" className="text-white text-2xl font-playfair font-bold">

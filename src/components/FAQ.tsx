@@ -36,7 +36,7 @@ const FAQ: React.FC = () => {
         <div className="max-w-3xl mx-auto">
           <Accordion type="single" collapsible className="space-y-4">
             {faqItems.map((item, index) => (
-              <AccordionItem key={index} value={`item-${index}`} className="border border-gray-200 rounded-lg overflow-hidden">
+              <AccordionItem key={index} value={`item-${index}`} className="border border-cornerstone-gold/20 rounded-lg overflow-hidden hover:border-cornerstone-orange/30 transition-colors">
                 <AccordionTrigger className="px-6 py-4 font-bold font-playfair hover:bg-gray-50 hover:text-cornerstone-navy">
                   {item.question}
                 </AccordionTrigger>
